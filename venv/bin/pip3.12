@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/aaravraj/Desktop/aaravr1/venv/bin/python3.12
+=======
+#!/Users/aaravraj/Desktop/aaravr1/venv/bin/python
+>>>>>>> main
 # -*- coding: utf-8 -*-
 import re
 import sys
