@@ -6,29 +6,92 @@ Homepage
 
 {% block content %}
 <header>
-        <div id="container1" class="faltu">
-            <img src="{{url_for('static',filename='logo.jpeg')}}" alt="logo" width="100px" height="100px">
+     <meta charset="UTF-8">
+    <title>SkillHub - Nobody Does It Better</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
 
-        </div>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div id="container1" class="faltu">
+            <img src="{{url_for('static',filename='logo.jpeg')}}" alt="logo" width="100px" height="100px">
+            <div class="brand">
         <h1>SkillHub</h1>
-        
-        
-        
-        <ul>
-            <li><a href=""> my course</a> </li>
-            <li><a href="">my project</a> </li>
-            <li><a href="">About</a> </li>
-            <li><a href="">Games</a> </li>
-             <li><a href="">Contact</a> </li>
-             <li><a href="">Login</a> </li>
-             <li><a href="">Signup</a> </li>
-        </ul>
-    </header>
-    <main>
-    
-        <p class="faltu">Nobody does it better</p>
-    </main>
-    <footer>
-        Copyright &copy; all rights reserved 
-    </footer>
-{%endblock%}
+        <p>Nobody Does It Better</p>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search courses...">
+    </div>
+</nav>
+
+<!-- SECOND NAV BAR (Links) -->
+<nav>
+    <div class="nav-links">
+        <a href="#courses">My Courses</a>
+        <a href="#projects">My Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#signup">Sign Up</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Learn Skills. Build Projects. Grow Faster.</h2>
+    <p>Empowering students with practical knowledge and real-world experience.</p>
+</section>
+
+<!-- COURSES -->
+<section id="courses" class="section">
+    <h3>My Courses</h3>
+    <p>
+        Web Development, Python Programming, Data Structures, Java, AI Basics,
+        Full Stack Development and more.
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h3>My Projects</h3>
+    <p>
+        Real-world projects including websites, machine learning apps,
+        automation tools and student portfolios.
+    </p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h3>About SkillHub</h3>
+    <p>
+        SkillHub is an edutech platform focused on hands-on learning,
+        simple explanations, and project-based education.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h3>Contact</h3>
+    <p>
+        Email: skillhub@gmail.com <br>
+        Phone: +91 98765 43210
+    </p>
+</section>
+
+<!-- SIGN UP -->
+<section id="signup" class="section">
+    <h3>Sign Up</h3>
+    <p>
+        Join SkillHub today and start your learning journey.
+    </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 SkillHub | Nobody Does It Better
+</footer>
+
+</body>
+</html>
