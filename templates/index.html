@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skillhub</title>
-    <link rel="stylesheet" href="/static/stylesheets/index.css">
-</head>
-<body>
-    <header>
+{% extends "base.html" %}
+
+{% block title %}
+Homepage
+{% endblock %}
+
+{% block content %}
+<header>
         <div id="container1" class="faltu">
-            <img src="logo.jpeg" alt="logo" width="100px" height="100px">
+            <img src="{{url_for('static',filename='logo.jpeg')}}" alt="logo" width="100px" height="100px">
 
         </div>
         <h1>SkillHub</h1>
@@ -33,6 +31,4 @@
     <footer>
         Copyright &copy; all rights reserved 
     </footer>
-    
-</body>
-</html>
+{%endblock%}
