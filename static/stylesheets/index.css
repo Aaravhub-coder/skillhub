@@ -6,113 +6,63 @@
         }
 
         body {
-            background-color: #0c0c0c;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
 
-        /* ---------- NAVBAR ---------- */
-        nav {
-            background-color: #1e1e2f;
-            color: white;
-            padding: 15px 40px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
 
-        /* Logo */
-        .logo {
-            font-size: 22px;
-            font-weight: bold;
-            color: #00ffd5;
-        }
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
 
-        /* Center Brand */
-        .brand {
-            text-align: center;
-        }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
 
-        .brand h1 {
-            font-size: 26px;
-            color: #ffffff;
-        }
+nav a:hover {
+    color: #00ffd5;
+}
 
-        .brand p {
-            font-size: 13px;
-            color: #cccccc;
-        }
+.container {
+    padding: 40px;
+    text-align: center;
+}
 
-        /* Nav Links */
-        .nav-links a {
-            text-decoration: none;
-            color: white;
-            margin: 0 12px;
-            font-size: 15px;
-        }
+input, button {
+    padding: 8px;
+    margin: 5px;
+    width: 250px;
+}
 
-        .nav-links a:hover {
-            color: #080808;
-        }
+button {
+    background-color: #1e1e2f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
-        /* Search Bar */
-        .search-box input {
-            padding: 6px 10px;
-            border-radius: 5px;
-            border: none;
-            outline: none;
-        }
+button:hover {
+    background-color: #00ffd5;
+    color: black;
+}
 
-        /* ---------- HERO SECTION ---------- */
-        .hero {
-            text-align: center;
-            padding: 80px 20px;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
-            color: white;
-        }
-
-        .hero h2 {
-            font-size: 36px;
-            margin-bottom: 15px;
-        }
-
-        .hero p {
-            font-size: 18px;
-        }
-
-        /* ---------- SECTIONS ---------- */
-        .section {
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        .section h3 {
-            font-size: 28px;
-            margin-bottom: 20px;
-            color: #e72323;
-        }
-
-        .section p {
-            max-width: 700px;
-            margin: auto;
-            font-size: 16px;
-            color: #195dc2;
-        }
-
-        /* ---------- FOOTER ---------- */
-        footer {
-            background-color: #aadb24;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-
-        /* ---------- RESPONSIVE ---------- */
-        @media (max-width: 768px) {
-            nav {
-                flex-direction: column;
-                gap: 10px;
-            }
-
-            .nav-links {
-                text-align: center;
-            }
-        }
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
