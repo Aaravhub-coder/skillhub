@@ -8,20 +8,20 @@
         body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f6f8;
+    background : "url(../WhatsApp Image 2026-01-22 at 9.44.15 PM.jpeg)" ;
 }
 
 header {
-    background-color: #1e1e2f;
+    background-color: #0c0c0c;
     color: white;
     padding: 15px;
     text-align: center;
 }
 
 nav {
-    background-color: #333;
+    background-color: #030303;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 nav a {
@@ -37,7 +37,10 @@ nav a:hover {
 .container {
     padding: 40px;
     text-align: center;
+    position: right top ;
+    position: left top ;
 }
+
 
 input, button {
     padding: 8px;
@@ -46,8 +49,8 @@ input, button {
 }
 
 button {
-    background-color: #1e1e2f;
-    color: white;
+    background-color: #0b0b0b;
+    color: rgb(11, 11, 11);
     border: none;
     cursor: pointer;
 }
@@ -58,8 +61,8 @@ button:hover {
 }
 
 footer {
-    background-color: #1e1e2f;
-    color: white;
+    background-color: #070707;
+    color: rgb(239, 6, 6);
     text-align: center;
     padding: 10px;
     position: fixed;
