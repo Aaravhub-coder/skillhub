@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="/static/stylesheets/index.css">
-</head>
-<body>
-    {% block content %}
-    {% endblock %}
-   
+{ % extends "index.html"%}
+ 
+{ % block courses %}
 
 <header><h1>My Courses</h1></header>
 
@@ -30,6 +21,5 @@
         <li>Software</li>
     </ul>
 </div>
-</body>
-</html>
+{ % endblock %}
 

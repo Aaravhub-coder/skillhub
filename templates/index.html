@@ -1,10 +1,12 @@
-{% extends "base.html" %}
-
-{% block title %}
-Homepage
-{% endblock %}
-
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillhub</title>
+     <link rel="stylesheet" href="/static/stylesheets/index.css">
+</head>
+<body>
 <header>
      <meta charset="UTF-8">
     <title>SkillHub - Nobody Does It Better</title>
@@ -27,16 +29,13 @@ Homepage
     </div>
 </nav>
 
-<!-- SECOND NAV BAR (Links) -->
-<nav>
-    <div class="nav-links">
-        <a href="#courses">My Courses</a>
-        <a href="#projects">My Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#signup">Sign Up</a>
-    </div>
-</nav>
+{% block content%}{% endblock%}
+{% block courses %}{% endblock%}
+{% block project%}{% endblock%}
+{% block about%}{% endblock%}
+{% block contact%}{%endblock%}
+{% block signup%}{% endblock%}
+{% block login%}{% endblock%}
 
 <!-- HERO -->
 <section class="hero">
@@ -50,4 +49,4 @@ Homepage
 
 </body>
 </html>
-{%endblock%}
+
